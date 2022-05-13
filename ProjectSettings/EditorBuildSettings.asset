@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Projects/Infinite Runner/Scenes/MainMenu.unity
+    guid: af3b61241d9cbab4c96860892afc51ea
+  - enabled: 1
+    path: Assets/Projects/Infinite Runner/Scenes/GameBase.unity
+    guid: 7f6d63272dfa9384987b00326a451774
+  - enabled: 1
+    path: Assets/Projects/Infinite Runner/Scenes/Infinite Runner.unity
+    guid: 35ae49da357aa3648952fb1ba24221e1
+  - enabled: 0
+    path: Assets/Projects/Character/Scenes/Character.unity
+    guid: 0d26e783c07870f4a921041d0add9d45
   m_configObjects: {}
