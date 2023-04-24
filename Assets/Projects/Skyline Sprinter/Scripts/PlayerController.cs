@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
 
 		runSpeed = Mathf.Min(newSpeed, maxSpeed);
 
-		if (transform.position.y <= -5 || characterController.velocity.magnitude == 0)
+		if (transform.position.y <= -5 || characterController.velocity.magnitude < 0.1f)
 		{
 			Destroyed();
 		}
